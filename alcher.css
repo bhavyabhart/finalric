@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    overflow-x: hidden;
+    background-color: #111;
+    padding-top: 60px;
+    transition: 0.5s;
+    
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 8px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar.is-opened {
+    width: 250px;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .sidebar.is-opened + .main {
+    margin-left: 250px;
+    transition: margin-left 0.5s;
+    background: rgba(0, 0, 0, 0.4);
+    
+  }
+  
+  .sidebar .closeSidebarButton {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #818181;
+    cursor: pointer;
+  }
+  
+  .sidebar .closeSidebarButton:hover {
+    color: #f1f1f1;
+  }
+  
+  .toggler {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .main {
+    height: 100vh;
+    padding: 25px;
+  }
+  .arsh{
+    margin-left: 45px;
+  }
+  .bhavya{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 45px;
+    background-color: #818181;
+    
+  }
+  .user{
+    
+    margin-left: 40px;
+    
+  }
+  .top-section {
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    height: 30px;
+}
+
+.home-icon {
+    font-size: 20px;
+}
+
+.profile-tag {
+    font-size: 20px;
+}
+.kya {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.profile-tag{
+display: flex;
+    align-items: center;
+    background-color:white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    color: black;
+}
+.niche{
+  display: flex;
+  margin-left: 0%;
+  align-items:center
+}
+.niche.bhavya{
+  margin-right: 2px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.table{
+  margin-left: 450px;
+}
+.form-title{
+  margin-left: 45px;
+}
+.h3{
+  margin-left: 45px;
+}
+.edit-button, .delete-button {
+    margin-right: 5px; /* Adjust spacing between buttons */
+    padding: 5px 10px; /* Adjust padding for better button appearance */
+    border: none; /* Remove default border */
+    border-radius: 3px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.edit-button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+}
+
+.delete-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+}
+
+.edit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.delete-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+.shift-right {
+
+    margin-left: 110px; 
+
+}
+.is-opened {
+  
+  width: 110px;
+}
